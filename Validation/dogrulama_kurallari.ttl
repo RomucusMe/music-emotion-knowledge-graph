@@ -1,0 +1,25 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+# Kendi ontolojinizin IRI adresini prefix olarak tanımlıyoruz:
+@prefix ont: <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#> .
+
+ont:MuzikEseriShape
+    a sh:NodeShape ;
+    sh:targetClass ont:MuzikEseri ;
+    
+    # Kural 1: Grafikteki her Müzik Eserinin kesinlikle 1 adet BPM değeri olmalıdır.
+    sh:property [
+        sh:path ont:bpmDegeri ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:message "HATA: Her muzik eserinin tam sayi formatinda tam olarak bir adet BPM degeri olmalidir!" ;
+    ] ;
+    
+    # Kural 2: Her müzik eseri en az bir gam türüyle yapısal olarak ilişkilendirilmelidir.
+    sh:property [
+        sh:path ont:gamKullanir ;
+        sh:minCount 1 ;
+        sh:class ont:Gam ;
+        sh:message "HATA: Muzik eseri en az bir Gam (Major/Minor) ile iliskilendirilmelidir!" ;
+    ] .

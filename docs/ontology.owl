@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#deneyimler -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#deneyimler">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Dinleyici"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#tempoKategorisindedir -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#tempoKategorisindedir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#eserAdi -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#eserAdi">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Allegro_Hizli -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Allegro_Hizli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Andante_Orta -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Andante_Orta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Augmented -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Augmented">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Cosku -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Cosku">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#CoskuluEser -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#CoskuluEser">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Cosku"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Diminished -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Diminished">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Dinleyici -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Dinleyici"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#GerginEser -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#GerginEser">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Diminished"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gerginlik"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gerginlik -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gerginlik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzun -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#HuzunluEser -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#HuzunluEser">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</xsd:maxExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzun"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzur -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Korku -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Korku">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Largo_Yavas -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Largo_Yavas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Maj7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Maj7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Min7 -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Min7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mutluluk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mutluluk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Nostalji -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Nostalji">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DoMajor_Bireyi -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DoMajor_Bireyi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mozart_Requiem_Lacrimosa -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mozart_Requiem_Lacrimosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <gamKullanir rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Re_Minor_Gam"/>
+        <bpmDegeri rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</bpmDegeri>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Re_Minor_Gam -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Re_Minor_Gam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TestEseri_01 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TestEseri_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri"/>
+        <gamKullanir rdf:resource="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DoMajor_Bireyi"/>
+        <bpmDegeri rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</bpmDegeri>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

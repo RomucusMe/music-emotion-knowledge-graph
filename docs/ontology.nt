@@ -1,0 +1,261 @@
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#deneyimler
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#deneyimler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#deneyimler> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Dinleyici> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#deneyimler> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#tempoKategorisindedir
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#tempoKategorisindedir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#tempoKategorisindedir> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#tempoKategorisindedir> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#eserAdi
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#eserAdi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#eserAdi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#eserAdi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Allegro_Hizli
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Allegro_Hizli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Allegro_Hizli> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Andante_Orta
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Andante_Orta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Andante_Orta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Augmented
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Augmented> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Augmented> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Cosku
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Cosku> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Cosku> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#CoskuluEser
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#CoskuluEser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#CoskuluEser> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid6 .
+_:genid6 <http://www.w3.org/2001/XMLSchema#minExclusive> "120"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#CoskuluEser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#CoskuluEser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Cosku> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Diminished
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Diminished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Diminished> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Dinleyici
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Dinleyici> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#GerginEser
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#GerginEser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#GerginEser> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Diminished> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#akorIcerir> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#GerginEser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#GerginEser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gerginlik> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gerginlik
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gerginlik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gerginlik> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzun
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzun> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#HuzunluEser
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#HuzunluEser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#HuzunluEser> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid12 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2001/XMLSchema#maxExclusive> "80"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#HuzunluEser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#HuzunluEser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzun> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#duyguUyandirir> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzur
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Huzur> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Korku
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Korku> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Korku> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Largo_Yavas
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Largo_Yavas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Largo_Yavas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Maj7
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Maj7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Maj7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Min7
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Min7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Min7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#AkorTipi> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Gam> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mutluluk
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mutluluk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mutluluk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Nostalji
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Nostalji> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Nostalji> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Negatif> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Pozitif> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DuyguDurumu> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TempoTuru> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikalParametre> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DoMajor_Bireyi
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DoMajor_Bireyi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DoMajor_Bireyi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MajorGam> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mozart_Requiem_Lacrimosa
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mozart_Requiem_Lacrimosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mozart_Requiem_Lacrimosa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mozart_Requiem_Lacrimosa> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Re_Minor_Gam> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Mozart_Requiem_Lacrimosa> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Re_Minor_Gam
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Re_Minor_Gam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#Re_Minor_Gam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MinorGam> .
+# 
+# http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TestEseri_01
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TestEseri_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TestEseri_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#MuzikEseri> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TestEseri_01> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#gamKullanir> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#DoMajor_Bireyi> .
+<http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#TestEseri_01> <http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#bpmDegeri> "135"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

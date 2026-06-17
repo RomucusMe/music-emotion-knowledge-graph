@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-2" IRI="http://www.semanticweb.org/yarram/ontologies/2026/5/untitled-ontology-2#"/>
+    <Declaration>
+        <Class IRI="#AkorTipi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allegro_Hizli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Andante_Orta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Augmented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cosku"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoskuluEser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diminished"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dinleyici"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DuyguDurumu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GerginEser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gerginlik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Huzun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HuzunluEser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Huzur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Korku"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Largo_Yavas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maj7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MajorGam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Min7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinorGam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mutluluk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuzikEseri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuzikalParametre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negatif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nostalji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pozitif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TempoTuru"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#akorIcerir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#deneyimler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#duyguUyandirir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gamKullanir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tempoKategorisindedir"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bpmDegeri"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#eserAdi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoMajor_Bireyi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mozart_Requiem_Lacrimosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Re_Minor_Gam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TestEseri_01"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#CoskuluEser"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#gamKullanir"/>
+                <Class IRI="#MajorGam"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#bpmDegeri"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GerginEser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#akorIcerir"/>
+            <Class IRI="#Diminished"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HuzunluEser"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#gamKullanir"/>
+                <Class IRI="#MinorGam"/>
+            </ObjectSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#bpmDegeri"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AkorTipi"/>
+        <Class IRI="#MuzikalParametre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allegro_Hizli"/>
+        <Class IRI="#TempoTuru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Andante_Orta"/>
+        <Class IRI="#TempoTuru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Augmented"/>
+        <Class IRI="#AkorTipi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cosku"/>
+        <Class IRI="#Pozitif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoskuluEser"/>
+        <Class IRI="#MuzikEseri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoskuluEser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#duyguUyandirir"/>
+            <Class IRI="#Cosku"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diminished"/>
+        <Class IRI="#AkorTipi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gam"/>
+        <Class IRI="#MuzikalParametre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GerginEser"/>
+        <Class IRI="#MuzikEseri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GerginEser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#duyguUyandirir"/>
+            <Class IRI="#Gerginlik"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gerginlik"/>
+        <Class IRI="#Negatif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huzun"/>
+        <Class IRI="#Negatif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HuzunluEser"/>
+        <Class IRI="#MuzikEseri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HuzunluEser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#duyguUyandirir"/>
+            <Class IRI="#Huzun"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huzur"/>
+        <Class IRI="#Pozitif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Korku"/>
+        <Class IRI="#Negatif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Largo_Yavas"/>
+        <Class IRI="#TempoTuru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maj7"/>
+        <Class IRI="#AkorTipi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MajorGam"/>
+        <Class IRI="#Gam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Min7"/>
+        <Class IRI="#AkorTipi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinorGam"/>
+        <Class IRI="#Gam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mutluluk"/>
+        <Class IRI="#Pozitif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negatif"/>
+        <Class IRI="#DuyguDurumu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nostalji"/>
+        <Class IRI="#Negatif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pozitif"/>
+        <Class IRI="#DuyguDurumu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TempoTuru"/>
+        <Class IRI="#MuzikalParametre"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#MajorGam"/>
+        <NamedIndividual IRI="#DoMajor_Bireyi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuzikEseri"/>
+        <NamedIndividual IRI="#Mozart_Requiem_Lacrimosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MinorGam"/>
+        <NamedIndividual IRI="#Re_Minor_Gam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuzikEseri"/>
+        <NamedIndividual IRI="#TestEseri_01"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#gamKullanir"/>
+        <NamedIndividual IRI="#Mozart_Requiem_Lacrimosa"/>
+        <NamedIndividual IRI="#Re_Minor_Gam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#gamKullanir"/>
+        <NamedIndividual IRI="#TestEseri_01"/>
+        <NamedIndividual IRI="#DoMajor_Bireyi"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bpmDegeri"/>
+        <NamedIndividual IRI="#Mozart_Requiem_Lacrimosa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bpmDegeri"/>
+        <NamedIndividual IRI="#TestEseri_01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">135</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#akorIcerir"/>
+        <Class IRI="#MuzikEseri"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deneyimler"/>
+        <Class IRI="#Dinleyici"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#duyguUyandirir"/>
+        <Class IRI="#MuzikEseri"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gamKullanir"/>
+        <Class IRI="#MuzikEseri"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tempoKategorisindedir"/>
+        <Class IRI="#MuzikEseri"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#akorIcerir"/>
+        <Class IRI="#AkorTipi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deneyimler"/>
+        <Class IRI="#DuyguDurumu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#duyguUyandirir"/>
+        <Class IRI="#DuyguDurumu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gamKullanir"/>
+        <Class IRI="#Gam"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tempoKategorisindedir"/>
+        <Class IRI="#TempoTuru"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bpmDegeri"/>
+        <Class IRI="#MuzikEseri"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#eserAdi"/>
+        <Class IRI="#MuzikEseri"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#bpmDegeri"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#eserAdi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
